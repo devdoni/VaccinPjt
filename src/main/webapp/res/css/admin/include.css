@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F0F0F0;
+    color: #333333;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.header_wrap {
+    font-size: 1.5em;
+}
+
+.header_wrap, .nav_wrap, .footer_wrap {
+    padding: 20px;
+    text-align: center;
+    background-color: #FFC107;
+    color: #333333;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav_wrap a {
+    background-color: #FFB74D;
+    color: #333333;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav_wrap a:hover {
+    background-color: #FF9800;
+    color: #FFFFFF;
+}
+
+body.light-mode {
+    background-color: #FFF3E0;
+}
+
+body.light-mode .header_wrap,
+body.light-mode .nav_wrap,
+body.light-mode .footer_wrap {
+    background-color: #FFC107;
+}
+
+body.light-mode .nav_wrap a {
+    background-color: #FFB74D;
+    color: #333333;
+}
+
+body.light-mode .nav_wrap a:hover {
+    background-color: #FF9800;
+    color: #FFFFFF;
+}
+
+body.dark-mode {
+    background-color: #1E1E1E;
+    color: #E0E0E0;
+}
+
+body.dark-mode .header_wrap {
+    background-color: #333333;
+    color: #FFC107;
+}
+
+body.dark-mode .nav_wrap {
+    background-color: #444444;
+}
+
+body.dark-mode .nav_wrap a {
+    background-color: #555555;
+    color: #FFC107;
+}
+
+body.dark-mode .nav_wrap a:hover {
+    background-color: #FF9800;
+    color: #1E1E1E;
+}
+
+body.dark-mode .section_wrap .article h3 {
+    color: #FFC107;
+}
+
+body.dark-mode .footer_wrap {
+    background-color: #333333;
+    color: #FFC107;
+}
+
+#toggleMode {
+    padding: 10px 20px;
+    background-color: #E5B865;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #1E1E1E;
+    font-size: 16px;
+    margin-left: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav_wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_wrap a, #toggleMode {
+    margin: 0 10px;
+}
+
+a {
+    text-decoration: none;
+}

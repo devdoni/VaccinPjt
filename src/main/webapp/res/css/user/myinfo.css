@@ -1,0 +1,32 @@
+.section_wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+}
+
+.article {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.article div {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    background-color: #F0A500;
+    color: #FFFFFF;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.article div:hover {
+    background-color: #D48B00;
+    transform: scale(1.05);
+}

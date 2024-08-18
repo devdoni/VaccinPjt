@@ -1,0 +1,141 @@
+.section_wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    padding: 20px;
+    background-color: #F7F7F7;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.article {
+    width: 100%;
+    max-width: 500px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    font-size: 16px;
+    color: #333333;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus {
+    border-color: #F0A500;
+    outline: none;
+}
+
+
+input[type="button"],
+input[type="reset"] {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #F0A500;
+    color: #FFFFFF;
+    transition: background-color 0.3s;
+    display: inline-block;
+}
+
+
+td[colspan="2"] {
+    text-align: center;
+}
+
+input[type="button"]:hover,
+input[type="reset"]:hover {
+    background-color: #D48B00;
+}
+
+
+body.light-mode .section_wrap {
+    background-color: #F7F7F7;
+}
+
+body.light-mode .article {
+    background-color: #FFFFFF;
+    color: #333333;
+}
+
+body.light-mode td {
+    color: #333333;
+}
+
+body.light-mode input[type="text"],
+body.light-mode input[type="password"],
+body.light-mode input[type="email"] {
+    border-color: #CCCCCC;
+    background-color: #FFFFFF;
+    color: #333333;
+}
+
+body.light-mode input[type="button"],
+body.light-mode input[type="reset"] {
+    background-color: #F0A500;
+    color: #FFFFFF;
+}
+
+
+body.dark-mode .section_wrap {
+    background-color: #2C2C2C;
+}
+
+body.dark-mode .article {
+    background-color: #333333;
+    color: #E0E0E0;
+}
+
+body.dark-mode td {
+    color: #E0E0E0;
+}
+
+body.dark-mode input[type="text"],
+body.dark-mode input[type="password"],
+body.dark-mode input[type="email"] {
+    border-color: #555555;
+    background-color: #444444;
+    color: #E0E0E0;
+}
+
+body.dark-mode input[type="button"],
+body.dark-mode input[type="reset"] {
+    background-color: #F0A500;
+    color: #1E1E1E;
+}
+
+body.dark-mode input[type="button"]:hover,
+body.dark-mode input[type="reset"]:hover {
+    background-color: #D48B00;
+}
+
+a {
+    text-decoration: none;
+}

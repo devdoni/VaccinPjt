@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F0F0F0;
+    color: #333333;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.header_wrap {
+    font-size: 1.5em;
+}
+
+.header_wrap, .nav_wrap, .footer_wrap {
+    padding: 20px;
+    text-align: center;
+    background-color: #E0E0E0;
+    color: #333333;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav_wrap a {
+    background-color: #D3D3D3;
+    color: #333333;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav_wrap a:hover {
+    background-color: #F0A500;
+    color: #FFFFFF;
+}
+
+.section_wrap .article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    text-align: center;
+}
+
+body.light-mode {
+    background-color: #F0F0F0;
+}
+
+body.light-mode .header_wrap,
+body.light-mode .nav_wrap,
+body.light-mode .footer_wrap {
+    background-color: #E0E0E0;
+}
+
+body.light-mode .nav_wrap a {
+    background-color: #D3D3D3;
+    color: #333333;
+}
+
+body.light-mode .nav_wrap a:hover {
+    background-color: #A3A3A3;
+    color: #FFFFFF;
+}
+
+body.dark-mode {
+    background-color: #1E1E1E;
+    color: #E0E0E0;
+}
+
+body.dark-mode .header_wrap {
+    background-color: #2C2C2C;
+    color: #F0A500;
+}
+
+body.dark-mode .nav_wrap {
+    background-color: #3A3A3A;
+}
+
+body.dark-mode .nav_wrap a {
+    background-color: #2C2C2C;
+    color: #E0E0E0;
+}
+
+body.dark-mode .nav_wrap a:hover {
+    background-color: #F0A500;
+    color: #1E1E1E;
+}
+
+body.dark-mode .section_wrap .article h3 {
+    color: #F0A500;
+}
+
+body.dark-mode .footer_wrap {
+    background-color: #2C2C2C;
+    color: #F0F0F0;
+}
+
+#toggleMode {
+    padding: 10px 20px;
+    background-color: #E5B865;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #1E1E1E;
+    font-size: 16px;
+    margin-left: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav_wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_wrap a, #toggleMode {
+    margin: 0 10px;
+}
+
+a {
+    text-decoration: none;
+}
