@@ -1,4 +1,3 @@
-<%@ page import="com.office.mode.user.UserConfig" %>
 <%@ page import="com.office.mode.admin.AdminConfig" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>

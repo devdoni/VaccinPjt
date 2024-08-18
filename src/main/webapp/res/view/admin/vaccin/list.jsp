@@ -1,4 +1,3 @@
-<%@ page import="com.office.mode.user.UserConfig" %>
 <%@ page import="com.office.mode.user.vaccin.UserVaccinDto" %>
 <%@ page import="java.util.List" %>
 <%@ page import="com.office.mode.user.vaccin.dto.ScNumberDto" %>

@@ -1,5 +1,3 @@
-<%@ page import="com.office.mode.user.member.UserMemberService" %>
-<%@ page import="com.office.mode.user.UserConfig" %>
 <%@ page import="com.office.mode.admin.AdminConfig" %>
 <%@ page import="com.office.mode.admin.member.AdminMemberService" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
